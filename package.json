@@ -2,11 +2,13 @@
   "name": "greet",
   "version": "1.0.0",
   "description": "A simple and naive greeter",
-  "main": "index.js",
+  "main": "src/index.coffee",
   "dependencies": {
+    "chai": "^1.10.0",
     "minimist": "^1.1.0"
   },
   "devDependencies": {
+    "coffee-script": "^1.8.0",
     "mocha": "^2.1.0"
   },
   "scripts": {
